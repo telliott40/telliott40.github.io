@@ -1,5 +1,6 @@
 <html>
   <head>
+    <link rel= "stylesheet" href="./index.css"/>
   </head>
   <body>
    <div class="title">
@@ -35,6 +36,103 @@
   
   </div>
   </body>
-  
+
+<script>
+  const home = document.createElement("div")
+home.innerHTML = "test"
+//const homeimg = document.createElement("img")
+//homeimg.src = ""
+//homeimg.classList.add("homeimg")
+
+const child = document.getElementById("childhood")
+childhood.addEventListener("click", () => {
+ const makeContent = document.getElementById("chosenContent")
+ makeContent.innerHTML= ""
  
+ //document.onclick = function() {
+  //audio.play();
+//}
+ 
+	const aboutme = document.createElement("div")
+  aboutme.innerHTML = "I was born on October 29th, 1999 in ohio. Growi	ng up I lived in multiple states including: Ohio, Colorado, Tenness		e, Texas and lasty Indiana, where I spent a majoridy of my childhoo		d. Growning up I enjoyed playing football and basketball, throwing i	n track working out. I graduated from Danville Community High School 	May of 2019, enlisting in the Military shorty after."
+  aboutme.classList.add("textchild")
+  
+  const imgHolder = document.createElement("div")
+  imgHolder.classList.add("allchildimg")
+  
+	const img = document.createElement("img");
+	img.src = "https://growthzonesitesprod.azureedge.net/wp-content/	uploads/site	s/1349/2019/11/s_Downtown.jpg";
+  img.classList.add("childimg")
+ 
+  const img2 = document.createElement("img");
+	img2.src = "https://scontent-sea1-1.xx.fbcdn.net/v/t1.6435-9/61465720_10216889687465868_8001443949833093120_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=ToJBdZmI_cMAX9-JFeE&_nc_ht=scontent-sea1-1.xx&oh=00_AfBVeF2p4SC-4jNTHsuuWMESsAryTY0uLHMgnV84RudpsQ&oe=63E5B1DD";
+  img2.classList.add("childimg")
+
+  
+	imgHolder.appendChild(img)
+  imgHolder.appendChild(img2)
+  makeContent.appendChild(imgHolder)
+  makeContent.appendChild(aboutme)
+ 
+ })
+ 
+ const military = document.getElementById("military")
+military.addEventListener("click", () => {
+ const makeContent = document.getElementById("chosenContent")
+ makeContent.innerHTML= ""
+ 
+	const millife = document.createElement("div")
+  millife.innerHTML = "• Joined July 16, 2019 • Completed Infantry OSUT at Fort Benning, GA in December of 2020 • Graduated RASP June of 2021 • Graduated Airborne August of 2020 • Graduated Ranger School November of 2021 • Graduated the US Military's premier Bus Driver School January of 2021 • Currently stationed at JBLM, WA with Second Battalion 75th Ranger Regiment"
+  millife.classList.add("milLifeText")
+
+  
+  const img3 = document.createElement("img");
+	img3.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2SpyBFGRXbRF00hKbyrI7bj4e4rLC2x82Xc4cKoJo9dGp4_euX0YFEfxT5W9M95muGCk&usqp=CAU"
+  img3.classList.add("milimg")
+  
+  const link = "https://www.benning.army.mil/Tenant/75thRanger/2nd-Battalion.html"
+  const elementlink = document.createElement("a")
+  elementlink.setAttribute("href", elementlink)
+  elementlink.innerHTML = "Second Battalion"
+  elementlink.classList.add("milLink")
+  
+  makeContent.appendChild(img3)
+  makeContent.appendChild(millife)
+  makeContent.appendChild(elementlink)
+ })
+ 
+ const hobs = document.getElementById("hobbies")
+hobbies.addEventListener("click", () => {
+ const makeContent = document.getElementById("chosenContent")
+ makeContent.innerHTML= ""
+ 
+ const hobimgHolder = document.createElement("div")
+  hobimgHolder.classList.add("bothobimg")
+ 
+	const  thingsido = document.createElement("div")
+  thingsido.innerHTML = "• Outdoors • Fitness • Time with friends • Cooking • Learning •"
+  thingsido.classList.add("hobtext")
+  
+   const img5 = document.createElement("img");
+	img5.src = "https://cdn.getyourguide.com/img/tour/c07a748f11698b2c.jpeg/97.jpg"
+  img5.classList.add("seaimg")
+  
+  const img4 = document.createElement("img");
+	img4.src = "https://scontent-sea1-1.xx.fbcdn.net/v/t1.6435-9/121543590_779189569309508_5652508286333960714_n.jpg?stp=c120.0.720.720a_dst-jpg_s851x315&_nc_cat=105&ccb=1-7&_nc_sid=da31f3&_nc_ohc=UVJjIYZ8R6wAX-u0Dq8&_nc_ht=scontent-sea1-1.xx&oh=00_AfCZPYA3-v5398eU7I5Huny1iI4uukM-zx9dS8fJhPhDpw&oe=63E68333"
+  img4.classList.add("hobimg")
+  
+  const img6 = document.createElement("img");
+	img6.src = "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2005%2F06%2F13%2Fmr20reshoot20sirloin-2000.jpg&q=60"
+  img6.classList.add("hobimg")
+  
+  makeContent.appendChild(img5)
+  makeContent.appendChild(thingsido)
+  hobimgHolder.appendChild(img4)
+  hobimgHolder.appendChild(img6)
+  makeContent.appendChild(hobimgHolder)
+  
+ })
+  
+</script>
+
 </html>
