@@ -18,6 +18,9 @@
 
   <br />
   <div class="topbar">
+	  <audio id="myaudio">
+		<source src= "./interface-124464.mp3"/>
+	  </audio>
     <div class="child" id="childhood">
       Childhood
     </div>
@@ -49,10 +52,12 @@ childhood.addEventListener("click", () => {
  const makeContent = document.getElementById("chosenContent")
  makeContent.innerHTML= ""
  
- //document.onclick = function() {
-  //audio.play();
-//}
- 
+	const sound = document.getElementById("myaudio")
+	
+	function play() {
+        const sound = document.getElementById("myaudio");
+        audio.play();
+	}
 	const aboutme = document.createElement("div")
   aboutme.innerHTML = "I was born on October 29th, 1999 in ohio. Growi	ng up I lived in multiple states including: Ohio, Colorado, Tenness		e, Texas and lasty Indiana, where I spent a majoridy of my childhoo		d. Growning up I enjoyed playing football and basketball, throwing i	n track working out. I graduated from Danville Community High School 	May of 2019, enlisting in the Military shorty after."
   aboutme.classList.add("textchild")
