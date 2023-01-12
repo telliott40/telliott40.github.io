@@ -118,8 +118,9 @@ body {
 }
 
 .childimg {
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
+  padding-top: 4px;
 }
 
 .allchildimg {
