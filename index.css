@@ -121,6 +121,7 @@ body {
   max-width: 30%;
   height: auto;
   padding-top: 4px;
+  padding-bottom: 4px; 
 }
 
 .allchildimg {
@@ -128,6 +129,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .milimg {
