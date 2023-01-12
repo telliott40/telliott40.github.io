@@ -1,0 +1,170 @@
+body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+.bio {
+  background: black;
+  border-radius: 4px;
+  padding: 20px;
+  transition: all 0.2s;
+  text-align: center;
+  border: double 1px purple;
+  border-width: 10px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+
+}
+
+.child {
+  color: white;
+  border-style: groove;
+  padding: 2px;
+  border-width: 5px;
+}
+
+.mil {
+  color: white;
+  border-style: groove;
+  padding: 2px;
+  border-width: 5px;
+}
+
+.hob {
+  color: white;
+  border-style: groove;
+  padding: 2px;
+  border-width: 5px;
+}
+
+.fam {
+  color: white;
+  border-style: groove;
+  padding: 2px;
+  border-width: 5px;
+}
+
+.mytitle {
+  font-size: 30px;
+  background: url(https://gifdb.com/images/thumbnail/outer-space-planets-background-d6dsvq0armnh3ajg.gif);
+  border-style: groove;
+  border-width: 5px;
+  border-color: red;
+  border-radius: 20%;
+  padding: 15px;
+  color: white;
+  text-shadow: 1px 1px 1px #CD5C5C, 1px 1px 1px #CD5C5C;
+  width: 80%;
+
+}
+
+.infobar {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 8px;
+  border-bottom: solid 1px white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 275px;
+
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topbar:hover {
+  cursor: pointer;
+}
+
+.child:hover {
+  border-color: yellow;
+  color: yellow;
+}
+
+.mil:hover {
+  border-color: red;
+  color: red;
+}
+
+.hob:hover {
+  border-color: blue;
+  color: blue;
+}
+
+.chosenClass {
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.milLifeText {
+  font-size: 12px;
+}
+
+.childimg {
+  max-width: 40%;
+  height: auto;
+}
+
+.allchildimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.milimg {
+  max-width: 250%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-radius: 50%
+}
+
+.milLink {
+  font-size: 10px;
+  color: purple;
+  padding-top: 2px;
+}
+
+.textchild {
+  font-size: 12px;
+}
+
+.hobtext {
+  font-size: 12px;
+}
+
+.hobimg {
+  max-width: 40%;
+  height: auto;
+  display: flex;
+}
+
+.seaimg {
+  max-width: 80%;
+  height: auto;
+  padding-bottom: 8px;
+}
+
+.bothobimg {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
