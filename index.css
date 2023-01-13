@@ -50,13 +50,13 @@ body {
 }
 
 .mytitle {
-  font-size: 30px;
+  font-size: 36px;
   background: url(https://gifdb.com/images/thumbnail/outer-space-planets-background-d6dsvq0armnh3ajg.gif);
   border-style: groove;
   border-width: 5px;
   border-color: red;
   border-radius: 20%;
-  padding: 15px;
+  padding: 4px;
   color: white;
   text-shadow: 1px 1px 1px #CD5C5C, 1px 1px 1px #CD5C5C;
   width: 80%;
@@ -73,7 +73,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 320px;
 
 }
 
@@ -168,7 +168,7 @@ body {
 }
 
 .bothobimg {
-  max-width: 40%;
+  max-width: 36%;
   height: auto;
   padding-top: 8px;
   display: flex;
