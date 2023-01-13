@@ -119,16 +119,16 @@ body {
 .childimg {
   max-width: 40%;
   height: auto;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .allchildimg {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .milimg {
