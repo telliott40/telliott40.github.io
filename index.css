@@ -164,13 +164,11 @@ body {
 .seaimg {
   max-width: 30%;
   height: auto;
-  padding-bottom: 8px;
 }
 
 .bothobimg {
   max-width: 36%;
   height: auto;
-  padding-top: 8px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
