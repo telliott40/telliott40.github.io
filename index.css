@@ -113,11 +113,11 @@ body {
 }
 
 .milLifeText {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .childimg {
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -148,7 +148,7 @@ body {
 }
 
 .textchild {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .hobtext {
