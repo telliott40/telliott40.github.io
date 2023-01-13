@@ -152,7 +152,7 @@ body {
 }
 
 .hobtext {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .hobimg {
@@ -164,6 +164,7 @@ body {
 .seaimg {
   max-width: 30%;
   height: auto;
+  padding-bottom: 8px;
 }
 
 .bothobimg {
@@ -172,4 +173,5 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 8px;
 }
