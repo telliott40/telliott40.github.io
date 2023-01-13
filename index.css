@@ -162,13 +162,13 @@ body {
 }
 
 .seaimg {
-  max-width: 40%;
+  max-width: 20%;
   height: auto;
   padding-bottom: 8px;
 }
 
 .bothobimg {
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
   padding-top: 8px;
   display: flex;
